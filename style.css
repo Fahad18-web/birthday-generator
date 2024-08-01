@@ -10,6 +10,7 @@
 html,body{
     height: 100%;
     width: 100%;
+    overflow-y: hidden;
 }
 
 body{
@@ -43,7 +44,7 @@ body{
 
 .cnt input{
     width: 12vw;
-    padding: 8px 4px;
+    padding: 6px 3px;
 }
 
 .cnt button{
@@ -70,7 +71,9 @@ body{
 
 @media only screen and (max-width:630px) {
     .cnt{
-        margin-top: 3vw;
+        width: 70vw;
+        margin-top: 30vw;
+        margin-left: 15vw;  
     }
     
     .cnt h1{
@@ -78,14 +81,16 @@ body{
         text-align: center;
     }
     .cnt input{
-        width: 20vw;
+        width: 50vw;
     }
     .cnt button{
-        font-size: 2vw;
-        width: 10vw;
+        font-size: 2.5vw;
+        width: 15vw;
     }
 
     #display{
-        font-size: 2.3vw;
+        width: 70vw;
+        margin-left: 15vw;
+        font-size: 3vw;
     }
 }
